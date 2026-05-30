@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<div class="chat">
+
+<div class="header">
+
+My Messenger
+
+</div>
+
+<div
+id="messages"
+class="messages">
+
+</div>
+
+<div class="bottom">
+
+<button onclick="sticker('😂')">
+😂
+</button>
+
+<button onclick="sticker('❤️')">
+❤️
+</button>
+
+<input id="text">
+
+<button onclick="send()">
+
+Send
+
+</button>
+
+</div>
+
+</div>
+
+<script src=
+"/socket.io/socket.io.js">
+
+</script>
+
+<script src="app.js">
+
+</script>
+
+</body>
+
+</html>
